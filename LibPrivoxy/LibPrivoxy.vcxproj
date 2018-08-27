@@ -69,9 +69,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)LibPrivoxy;$(SolutionDir)src;$(SolutionDir)src\pcre;$(SolutionDir)cryptopp562;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)LibPrivoxy\LibPrivoxy;$(SolutionDir)LibPrivoxy\src;$(SolutionDir)LibPrivoxy\src\pcre;$(SolutionDir)LibPrivoxy\cryptopp562;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Debug;$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)DLL_Debug\</OutDir>
+    <OutDir>$(SolutionDir)ZorusDeploymentService\bin\Debug\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Lib_Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -81,9 +81,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(SolutionDir)LibPrivoxy;$(SolutionDir)src;$(SolutionDir)src\pcre;$(SolutionDir)cryptopp562;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)LibPrivoxy\LibPrivoxy;$(SolutionDir)LibPrivoxy\src;$(SolutionDir)LibPrivoxy\src\pcre;$(SolutionDir)LibPrivoxy\cryptopp562;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Release;$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)DLL_Release\</OutDir>
+    <OutDir>$(SolutionDir)ZorusDeploymentService\bin\Release\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Lib_Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
